@@ -1,5 +1,6 @@
 # react-native-checkbox-component
 [ ![release](https://img.shields.io/badge/release-v1.0.1-blue.svg?maxAge=2592000?style=flat-square)](https://github.com/bgoyal2222/react-native-checkbox-component/releases)
+[ ![NPM version](https://img.shields.io/badge/npm%20package-v1.0.1-green.svg?style=flat)](https://www.npmjs.com/package/react-native-checkbox-component)
 [ ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/bgoyal2222/react-native-checkbox-component/pulls)
 [![License MIT](http://img.shields.io/badge/license-MIT-orange.svg?style=flat)](https://github.com/bgoyal2222/react-native-checkbox-component/blob/master/LICENSE)
 
