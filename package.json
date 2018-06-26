@@ -1,0 +1,38 @@
+{
+  "name": "react-native-checkbox-component",
+  "version": "1.0.1",
+  "description": "Custom checkbox component for react native, it works on iOS and Android like a charm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgoyal2222/react-native-checkbox-component.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-custom-check-box",
+    "react-native-component",
+    "react-native-checkbox",
+    "check-box",
+    "check",
+    "box",
+    "react-component",
+    "ios",
+    "android"
+  ],
+  "author": "Bhavesh Goyal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bgoyal2222/react-native-checkbox-component/issues"
+  },
+  "dependencies": {
+    "react-native-vector-icons": "^4.4.2",
+    "prop-types": "^15.5.7"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.20.0"
+  },
+  "homepage": "https://github.com/bgoyal2222/react-native-checkbox-component"
+}
