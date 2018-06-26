@@ -72,8 +72,8 @@ leftTextStyle  |  Text.propTypes.style | true |  | Custom left Text style
 rightText | PropTypes.string |true |   | Custom right Text
 rightTextView | PropTypes.element | true |   | Custom right TextView
 rightTextStyle  | Text.propTypes.style | true |  | Custom right Text style
-checkedComponent  |  PropTypes.element  | true  | Default Icon | Custom  checked Component
-unCheckedComponent  |  PropTypes.element  | true  |  Default Icon  | Custom  unchecked Component
+checkedComponent  |  PropTypes.element  | true  | Icon | Custom  checked Component
+unCheckedComponent  |  PropTypes.element  | true  |  Icon  | Custom  unchecked Component
 isChecked  |  PropTypes.bool |  false  |  false  | checkbox checked state
 onClick   |  PropTypes.func.isRequired |  false  |  | callback  function
 disabled  |  PropTypes.bool            | true  |  false | Disable the checkbox button
