@@ -15,7 +15,7 @@ Checkbox component for react native, it works on iOS and Android.
 
 ## Demo  
 
-![Screenshots](https://raw.githubusercontent.com/bgoyal2222/react-native-checkbox-component/blob/master/Screenshot/react-native-custom-check-box.gif)
+![Screenshots](https://github.com/bgoyal2222/react-native-checkbox-component/blob/master/Screenshot/react-native-custom-check-box.gif)
 
 ## Installation
 
