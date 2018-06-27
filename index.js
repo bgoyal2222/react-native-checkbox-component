@@ -42,7 +42,7 @@ export default class CheckBox extends Component {
 		checkedCheckBoxColor: PropTypes.string,
 		uncheckedCheckBoxColor: PropTypes.string,
 		disabled: PropTypes.bool,
-		key:PropTypes.number
+		index:PropTypes.number
 	}
 	static defaultProps = {
 		isChecked: false,
@@ -63,7 +63,7 @@ export default class CheckBox extends Component {
 		this.setState({
 			isChecked: checkboxState
 		})
-		this.props.onClick(checkboxState,this.props.key);
+		this.props.onClick(checkboxState,this.props.index);
 	}
 	_renderLeft() {
 		if (this.props.leftTextView) return this.props.leftTextView;

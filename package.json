@@ -1,6 +1,6 @@
 {
   "name": "react-native-checkbox-component",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom checkbox component for react native, it works on iOS and Android like a charm.",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "react-native",
+    "react-native-checkbox-component",
     "react-native-custom-check-box",
     "react-native-component",
     "react-native-checkbox",
