@@ -13,7 +13,7 @@ import {
 	ViewPropTypes,
 	Image,
 	Text,
-	TouchableHighlight
+	TouchableOpacity
 } from 'react-native';
 import PropTypes from 'prop-types';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -21,6 +21,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 export default class CheckBox extends Component {
 	constructor(props) {
 		super(props);
+		this.onClick = this.onClick.bind(this);
 		this.state = {
 			isChecked: this.props.isChecked,
 		}
@@ -41,6 +42,7 @@ export default class CheckBox extends Component {
 		checkedCheckBoxColor: PropTypes.string,
 		uncheckedCheckBoxColor: PropTypes.string,
 		disabled: PropTypes.bool,
+		key:PropTypes.number
 	}
 	static defaultProps = {
 		isChecked: false,
@@ -61,7 +63,7 @@ export default class CheckBox extends Component {
 		this.setState({
 			isChecked: checkboxState
 		})
-		this.props.onClick(checkboxState);
+		this.props.onClick(checkboxState,this.props.key);
 	}
 	_renderLeft() {
 		if (this.props.leftTextView) return this.props.leftTextView;
@@ -102,7 +104,7 @@ export default class CheckBox extends Component {
 		var source;
 		source = this.state.isChecked ? 'checkbox-marked' : 'checkbox-blank-outline';
 		return (
-			<MaterialCommunityIcons name={source} style={{}} size={20} color={this._getTintColor()} />
+			<MaterialCommunityIcons name={source} size={20} color={this._getTintColor()} />
 		);
 	}
 	componentWillReceiveProps(nextProps) {
@@ -112,10 +114,9 @@ export default class CheckBox extends Component {
 	}
 	render() {
 		return (
-			<TouchableHighlight
+			<TouchableOpacity
 				style={this.props.style}
-				onPress={() => this.onClick()}
-				underlayColor='transparent'
+				onPress={this.onClick}
 				disabled={this.props.disabled}
 			>
 				<View style={styles.container}>
@@ -123,7 +124,7 @@ export default class CheckBox extends Component {
 					{this._renderImage()}
 					{this._renderRight()}
 				</View>
-			</TouchableHighlight>
+			</TouchableOpacity>
 		);
 	}
 }

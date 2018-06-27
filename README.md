@@ -1,5 +1,5 @@
 # react-native-checkbox-component
-[ ![release](https://img.shields.io/badge/release-v1.0.1-blue.svgmaxAge=2592000?style=flat-square)](https://github.com/bgoyal2222/react-native-checkbox-component/releases)
+[ ![release](https://img.shields.io/badge/release-v1.0.2-blue.svg?maxAge=2592000?style=flat-square)](https://github.com/bgoyal2222/react-native-checkbox-component/releases)
 [ ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/bgoyal2222/react-native-checkbox-component/pulls)
 [![License MIT](http://img.shields.io/badge/license-MIT-orange.svg?style=flat)](https://github.com/bgoyal2222/react-native-checkbox-component/blob/master/LICENSE)
 
@@ -72,6 +72,8 @@ checkedComponent  |  PropTypes.element  | true  | Default Icon | Custom  checked
 unCheckedComponent  |  PropTypes.element  | true  |  Default Icon  | Custom  unchecked Component
 isChecked  |  PropTypes.bool |  false  |  false  | checkbox checked state
 onClick   |  PropTypes.func.isRequired |  false  |  | callback  function
+key | PropTypes.number |false| key to return in onClick callback
+disabled  |  PropTypes.bool            | true  |  false | Disable the checkbox button
 disabled  |  PropTypes.bool            | true  |  false | Disable the checkbox button
 checkBoxColor | PropTypes.string | true |   | Tint color of the checkbox image (this props is for both checked and unchecked state)
 checkedCheckBoxColor | PropTypes.string | true |   | Tint color of the checked state checkbox image (this prop will override value of `checkBoxColor` for checked state)

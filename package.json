@@ -1,6 +1,6 @@
 {
   "name": "react-native-checkbox-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Custom checkbox component for react native, it works on iOS and Android like a charm.",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "prop-types": "^15.5.7"
   },
   "peerDependencies": {
-    "react-native": ">=0.20.0"
+    "react-native": ">=0.44.0"
   },
   "homepage": "https://github.com/bgoyal2222/react-native-checkbox-component"
 }
