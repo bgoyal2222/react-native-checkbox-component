@@ -83,7 +83,9 @@ checkBoxColor | PropTypes.string | true |   | Tint color of the checkbox image (
 checkedCheckBoxColor | PropTypes.string | true |   | Tint color of the checked state checkbox image (this prop will override value of `checkBoxColor` for checked state)
 uncheckedCheckBoxColor | PropTypes.string | true |   | Tint color of the unchecked state checkbox image (this prop will override value of `checkBoxColor` for unchecked state)
 
+## Other popular components
 
+https://github.com/bgoyal2222/react-native-multiselect-view
 
 
 **MIT Licensed**
